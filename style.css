@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+body{
+    /*background-image: url('/images/bgimage.jpg');
+background-size: cover;*/
+}
+.nav-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+
+}
+.nav-link a:hover{
+    background-color: teal;
+    color:black !important;
+
+}
+#logo{
+    margin-left:100px;
+}
+.container{
+    margin-top: 100px;
+
+}
+.textall{
+    padding-top:80px;
+}
+.text{
+    list-style-type: square;
+}
+.form{
+    background-color: beige;
+    border:1px solid red;
+    width:300px;
+}
+#login{
+    width:100%;
+}
+.form h3{
+    text-align: center;
+}
+.carousel-item img{
+    height:500px;
+    position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+.card-body{
+    background-color: rgb(245, 240, 240);
+    border:1 px black;
+    padding-left: 50px;
+}
+.card{
+    width:200px;
+}
