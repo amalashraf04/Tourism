@@ -13,8 +13,9 @@ background-size: cover;*/
 
 }
 .nav-link a:hover{
-    background-color: teal;
-    color:black !important;
+    background-color: rgb(38, 67, 230);
+    color:rgb(252, 238, 238) !important;
+    transition: :5s;
 
 }
 #logo{
@@ -30,10 +31,12 @@ background-size: cover;*/
 .text{
     list-style-type: square;
 }
-.form{
+.login .form{
     background-color: beige;
-    border:1px solid red;
-    width:300px;
+    border:1px solid rgb(248, 242, 242);
+    width:400px;
+    margin-left:60%;
+    margin-top:10%;
 }
 #login{
     width:100%;
@@ -59,4 +62,14 @@ background-size: cover;*/
 }
 .card{
     width:200px;
+    position:relative;
+}
+/*Login Page Style*/
+.login{
+    background-image: url(/bg.jpg);
+    background-size: cover;
+    opacity: 0.7;
+    }
+.container{
+    background-color: rgb(131, 131, 199);
 }
